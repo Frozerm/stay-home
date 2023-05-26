@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="402"
+   height="68"
+   fill="none"
+   version="1.1"
+   id="svg78"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs82">
+    <rect
+       x="1.0951289"
+       y="-0.49930315"
+       width="185.44905"
+       height="142.30272"
+       id="rect242" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview80"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="2.2114428"
+     inkscape:cx="139.27559"
+     inkscape:cy="68.733408"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg78" />
+  <text
+     xml:space="preserve"
+     id="text240"
+     style="font-size:64px;white-space:pre;shape-inside:url(#rect242);display:inline;fill:#000000"
+     transform="translate(95.632567,-6.2208557)"
+     inkscape:label="text240"><tspan
+       x="1.0957031"
+       y="57.732012"
+       id="tspan4930"><tspan
+         style="font-weight:bold;font-family:'Droid Sans Ethiopic';-inkscape-font-specification:'Droid Sans Ethiopic Bold';fill:#ffffff"
+         id="tspan4926">SH</tspan><tspan
+         style="font-family:'Droid Sans Ethiopic';-inkscape-font-specification:'Droid Sans Ethiopic';fill:#ffffff"
+         id="tspan4928">|</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;font-family:'Droid Sans Ethiopic';-inkscape-font-specification:'Droid Sans Ethiopic';fill:#b3404a;fill-opacity:1"
+     x="210.82652"
+     y="28.245411"
+     id="text314"><tspan
+       sodipodi:role="line"
+       id="tspan312"
+       x="210.82652"
+       y="28.245411"
+       style="font-size:29.3333px;fill:#ffffff;fill-opacity:1">STAY</tspan><tspan
+       sodipodi:role="line"
+       x="210.82652"
+       y="65.610931"
+       id="tspan316"
+       style="font-size:29.3333px;fill:#b3404a;fill-opacity:1">HOME</tspan></text>
+</svg>

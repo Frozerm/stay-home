@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description"
+        content="Надоело сливать звание из-за читеров? Не беда! Заказывай буст с ботами в Standoff 2 и будь в тандеме с профессиональными игроками!">
+    <title>Stay Home</title>
+    <meta property="og:title" content="Stay Home">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://stand-service.ru/boosting">
+    <meta property="og:image" content="https://stand-service.ru/img/ava.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Sans:wght@400;700&family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="shortcut icon" href="logo-sh.ico">
+</head>
+
+<body class="preload"><canvas id="snow"></canvas>
+    <div class="wrapper">
+        <header id="header" class="header">
+            <div class="container">
+                <div class="header__wrapper"><a class="header__logo logo" href="index.html"><img class="logo__img"
+                            src="img/svg/logo.svg" alt="logo"> </a><a class="burger-btn"
+                        href="boosting.html#header"><span></span></a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a class="menu__link" href="index.html">ГЛАВНАЯ</a></li>
+                            <li class="menu__item"><a class="menu__link" href="gold.html">БРОНЬ</a></li>
+                            <li class="menu__item"><a class="menu__link" href="boosting.html">УСЛУГИ</a></li>
+                            <li class="menu__item"><a class="menu__link" href="guarantees.html">ГАРАНТИИ</a></li>
+                            <li class="menu__item"><a class="menu__link" href="404.html">ОТЗЫВЫ</a></li>
+                            <li class="menu__item"><a class="menu__link" href="about.html">О НАС</a></li>
+                            <li class="menu__item"><a class="menu__link" href="404.html">ПОДДЕРЖКА</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="main-section">
+                <div class="main-services section">
+                    <div class="container">
+                        <h2 class="main-services__title title">НАШИ УСЛУГИ:</h2>
+                        <div class="main-cards row">
+                            <div class="main-card col-3 col-lg-6 col-md-12">
+                                <div class="main-card__box"><a class="main-card__wrapper-link" href="boosting.html"><img
+                                            class="main-card__img" src="img/main-cards/01.png" alt="card"> </a><a
+                                        class="main-card__name-link" href="boosting.html">ПРОФЕССИОНАЛЬНАЯ <br>КОНСУЛЬТАЦИЯ</a></div>
+                            </div>
+                            <div class="main-card col-3 col-lg-6 col-md-12">
+                                <div class="main-card__box"><a class="main-card__wrapper-link" href="boosting.html"><img
+                                            class="main-card__img" src="img/main-cards/02.jpg" alt="card"> </a><a
+                                        class="main-card__name-link" href="boosting.html">БРОНИРОВАНИЕ ЭЛИТНЫХ <br> ОТЕЛЕЙ</a>
+                                </div>
+                            </div>
+                            <div class="main-card col-3 col-lg-6 col-md-12">
+                                <div class="main-card__box"><a class="main-card__wrapper-link" href="boosting.html"><img
+                                            class="main-card__img" src="img/main-cards/03.png" alt="card"> </a><a
+                                        class="main-card__name-link" href="boosting.html">ЛИЧНЫЕ СЛУГИ</a></div>
+                            </div>
+                            <div class="main-card col-3 col-lg-6 col-md-12">
+                                <div class="main-card__box"><a class="main-card__wrapper-link" href="gold.html"><img
+                                            class="main-card__img" src="img/main-cards/04.png" alt="card"> </a><a
+                                        class="main-card__name-link" href="gold.html">БРОНИРОВАНИЕ ДЕШЕВЫХ <br> ОТЕЛЕЙ</a></div>
+                            </div>
+                            <div class="main-card col-6 col-lg-6 col-md-12">
+                            </div>
+                            <div class="main-card col-6 col-lg-6 col-md-12">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="popup-01" class="popup">
+                        <div class="popup__wrapper">
+                            <div class="popup__content"><a class="popup__close close-popup"></a>
+                                <h2 class="popup__title title">Сколько игр нужно?</h2>
+                                <h3 class="popup__subtitle subtitle">1 игра — 89 ₽ или 221 G</h3><input id="matchmaking"
+                                    class="popup__input input" maxlength="2" placeholder="Введите кол-во игр:"
+                                    onkeypress="validate(event)" oninput="matchmaking(this.value)">
+                                <div class="popup__oninput-wrapper oninput-wrapper">
+                                    <div class="popup__oninput oninput">В рублях: <span
+                                            id="popup__oninput-matchmaking_rub">0.00</span><span>₽</span></div>
+                                    <div class="popup__oninput oninput">В голде: <span
+                                            id="popup__oninput-matchmaking_gold">0.00</span><span>G</span></div>
+                                </div><a class="popup__btn main-btn popup-link" href="boosting.html#popup-04">Купить</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="popup-02" class="popup">
+                        <div class="popup__wrapper">
+                            <div class="popup__content"><a class="popup__close close-popup"></a>
+                                <h2 class="popup__title title">Сколько игр нужно?</h2>
+                                <h3 class="popup__subtitle subtitle">1 игра — 39 ₽ или 97 G</h3><input id="command"
+                                    class="popup__input input" maxlength="2" placeholder="Введите кол-во игр:"
+                                    onkeypress="validate(event)" oninput="command(this.value)">
+                                <div class="popup__oninput-wrapper oninput-wrapper">
+                                    <div class="popup__oninput oninput">В рублях: <span
+                                            id="popup__oninput-command_rub">0.00</span><span>₽</span></div>
+                                    <div class="popup__oninput oninput">В голде: <span
+                                            id="popup__oninput-command_gold">0.00</span><span>G</span></div>
+                                </div><a class="popup__btn main-btn popup-link" href="boosting.html#popup-04">Купить</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="popup-03" class="popup">
+                        <div class="popup__wrapper">
+                            <div class="popup__content"><a class="popup__close close-popup"></a>
+                                <h2 class="popup__title title">Сколько MMR нужно?</h2>
+                                <h3 class="popup__subtitle subtitle">1 MMR — 2 ₽ или 5 G</h3><input id="partners"
+                                    class="popup__input input" maxlength="4" placeholder="Минимум от 30 MMR:"
+                                    onkeypress="validate(event)" oninput="partners(this.value)">
+                                <div class="popup__oninput-wrapper oninput-wrapper">
+                                    <div class="popup__oninput oninput">В рублях: <span
+                                            id="popup__oninput-partners_rub">0.00</span><span>₽</span></div>
+                                    <div class="popup__oninput oninput">В голде: <span
+                                            id="popup__oninput-partners_gold">0.00</span><span>G</span></div>
+                                </div><a class="popup__btn main-btn" target="_blank"
+                                    href="https://t.me/OLEGGSER">Купить</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="popup-04" class="popup">
+                        <div class="popup__wrapper">
+                            <div class="popup__content"><a class="popup__close close-popup"></a>
+                                <h2 class="popup__title title">Выберите бустера:</h2><a class="popup__btn main-btn"
+                                    target="_blank" href="https://t.me/victor_fedorov">Виктор Федоров</a> <a
+                                    class="popup__btn main-btn" target="_blank" href="404.html">Сергей
+                                    Алексеевич</a> <a class="popup__btn main-btn" target="_blank"
+                                    href="https://t.me/ValeriqOrlov">Валерий Орлов</a> <a class="popup__btn main-btn"
+                                    target="_blank" href="https://t.me/mrkus1">Марк Ребров</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="security">
+                    <div class="container">
+                        <div class="security__box"><i class="security__icon icon-shieldbold"></i>
+                            <h2 class="security__title title">Меня могут обмануть?</h2>
+                            <p class="security__text">Мы соблюдаем сложно выполнимые правила для брони отелей и 
+                                гарантируем, что максимально обезопасим Вас от обмана.
+                                Если у Вас остались какие-либо вопросы, Вы можете обратиться в нашу <a
+                                    href="404.html">поддержку</a>.</p><span>Защита подбирается индивидуально под
+                                каждый заказ.</span>
+                        </div>
+                    </div>
+                </div>
+                <section class="benefits section">
+                    <div class="container">
+                        <div class="benefits__inner">
+                            <h2 class="benefits__title title">ЗАЧЕМ ВЫБИРАТЬ НАШУ<span> КОМПАНИЮ</span></h2>
+                            <div class="benefits__row row">
+                                <div class="benefits__col col-4 col-lg-6 col-md-12">
+                                    <div class="benefit-box benefit-icon-1">
+                                        <h3 class="benefit-box__subtitle subtitle">Мы поможем Вам</h3>
+                                        <ul>
+                                            <li>Общение с опытными и адекватными менеджарами</li>
+                                            <li>Бронь только хороших отелей</li>
+                                            <li>Получать удовольствие</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="benefits__col col-4 col-lg-6 col-md-12">
+                                    <div class="benefit-box benefit-icon-2">
+                                        <h3 class="benefit-box__subtitle subtitle">Это безопасно</h3>
+                                        <ul>
+                                            <li>Мы работаем при поддержке многих гос структур</li>
+                                            <li>Контролируем весь наш денежный обиход</li>
+                                            <li>Используем только проверенные отели</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="benefits__col col-4 col-lg-12">
+                                    <div class="benefit-box benefit-icon-3">
+                                        <h3 class="benefit-box__subtitle subtitle">Почему мы?</h3>
+                                        <ul>
+                                            <li>Опытная команда, более 4 лет опыта работы</li>
+                                            <li>Поддержка 24/7</li>
+                                            <li>Только <a href="404.html">положительные отзывы</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__top">
+                <div class="container">
+                    <div class="footer__row row">
+                        <article class="footer__col col-6 col-md-12">
+                            <div class="footer-about"><a class="footer-about__logo logo" href="index.html"><img
+                                        class="logo__img" src="img/svg/logo.svg" alt="logo"></a>
+                                <p class="footer-about__text">Stay Home молодая, но мощная команда менеджеров,
+                                    услуг и просто работников. В нашем арсенале новейшие
+                                    технологии, любовь к своему делу и многолетний опыт.</p><span>Мы знаем, с
+                                    чем имеем дело. И мы знаем, как Вам помочь.</span>
+                                <ul class="footer-about__list">
+                                    <li class="footer-about__item"><a class="footer-about__link" target="_blank"
+                                            href="404.html">Сотрудничество с нами</a></li>
+                                    <li class="footer-about__item"><a class="footer-about__link"
+                                            href="agreement.html">Пользовательское соглашение</a></li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="footer__col col-2 col-md-12">
+                            <div class="footer-menu">
+                                <h5 class="footer-title">МЕНЮ</h5>
+                                <ul class="footer-menu__list">
+                                    <li class="footer-menu__item"><a class="footer-menu__link"
+                                            href="index.html">ГЛАВНАЯ</a></li>
+                                    <li class="footer-menu__item"><a class="footer-menu__link"
+                                            href="gold.html">БРОНЬ</a></li>
+                                    <li class="footer-menu__item"><a class="footer-menu__link"
+                                            href="boosting.html">УСЛУГИ</a></li>
+                                    <li class="footer-menu__item"><a class="footer-menu__link"
+                                            href="guarantees.html">ГАРАНТИИ</a></li>
+                                    <li class="footer-menu__item"><a class="footer-menu__link"
+                                            href="404.html">ОТЗЫВЫ</a></li>
+                                    <li class="footer-menu__item"><a class="footer-menu__link" href="about.html">О
+                                            НАС</a></li>
+                                    <li class="footer-menu__item"><a class="footer-menu__link"
+                                            href="404.html">ПОДДЕРЖКА</a></li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="js/scripts.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
+        integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+</body>
+
+</html>
